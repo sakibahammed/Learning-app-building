@@ -2,7 +2,10 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp();
+  runApp() {}
+  ;
+
+  print('hello mom');
 }
 
 // executing a function , Provided by flutter
