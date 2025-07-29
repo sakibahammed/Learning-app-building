@@ -1,8 +1,9 @@
 // we need to import the flutter package
 import 'package:flutter/material.dart';
+import 'package:roll_a_dice/gradient_containter.dart';
 
 void main() {
-  runApp(const MaterialApp(home: Text('hello mom')));
+  runApp(MaterialApp(home: Scaffold(body: GradientContainer())));
 
   // run app runs the code , and you need to push the widget name ,and tell what needs to be drawn
   //material app is the core widgets
